@@ -1,0 +1,53 @@
+.weatherWrapper{
+    position: relative;
+    width: 300px;
+    padding: 20px 10px;
+    /*background-color: #30c8eb;*/
+    border-radius: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.weatherCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.city{
+    font-size: 24px;
+}
+
+.weatherType{
+    font-size: 17px;
+}
+
+.weatherTemp{
+    font-size: 40px;
+}
+
+.weatherImage{
+    width: 90px;
+    height: 90px;
+}
+
+.weatherDays{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.buttonDelete{
+    position: absolute;
+    padding: 5px;
+    top: 10px;
+    right: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.buttonDelete:hover{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}

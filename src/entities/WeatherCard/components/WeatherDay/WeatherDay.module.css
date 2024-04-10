@@ -1,0 +1,16 @@
+.weatherDayWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 16px;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+}
+
+.weatherDayTemp{
+    font-size: 23px;
+}

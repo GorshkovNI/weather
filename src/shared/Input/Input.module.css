@@ -1,0 +1,31 @@
+.wrapper{
+    display: flex;
+}
+
+.wrapperInput{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.input{
+    border-radius: 0;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+
+.buttonClear{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+

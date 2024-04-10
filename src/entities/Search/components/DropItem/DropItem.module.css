@@ -1,0 +1,11 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.wrapper:hover{
+    background-color: bisque;
+}
